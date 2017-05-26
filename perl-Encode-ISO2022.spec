@@ -22,7 +22,6 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Encode >= 2.10
 BuildRequires:	perl-Test-Simple
 %endif
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
