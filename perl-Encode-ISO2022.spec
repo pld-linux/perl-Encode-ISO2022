@@ -4,7 +4,6 @@
 #
 %define		pdir	Encode
 %define		pnam	ISO2022
-%include	/usr/lib/rpm/macros.perl
 Summary:	Encode::ISO2022 - ISO/IEC 2022 character encoding scheme
 Summary(pl.UTF-8):	Encode::ISO2022 - schemat kodowania znaków ISO/IEC 2022
 Name:		perl-Encode-ISO2022
