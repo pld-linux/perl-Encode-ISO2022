@@ -14,9 +14,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Encode/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f3b0717b470961da808d871362bf1c5f
-URL:		http://search.cpan.org/dist/Encode-ISO2022/
+URL:		https://metacpan.org/dist/Encode-ISO2022
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Encode >= 2.10
 BuildRequires:	perl-Test-Simple
